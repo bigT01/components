@@ -1,0 +1,12 @@
+.basicButton{
+    transition: background-color 0.1s ease-in-out;
+}
+
+.basicButton:hover{
+    background-color: #5835B0 !important;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.basicButton:focus{
+    outline: 2px solid #472C8A;
+}

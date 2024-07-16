@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import BasicButton from "./components/buttons/BasicButton";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="w-screen p-10">
+            {/*tags*/}
+            <div className='flex gap-2 mb-4'>
+                <button className='px-4 py-2 rounded-full bg-blue-700 text-white'>Buttons</button>
+            </div>
+            {/*components*/}
+          <div className='flex flex-wrap gap-4'>
+            {/*<BasicButton label={'press me'} bgColor={'#ededed'}/>*/}
+          </div>
+        </div>
+    );
 }
 
 export default App;
